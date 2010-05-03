@@ -30,14 +30,14 @@ fr:
     user: "L'utilisateur n'existe pas."
     conversation: "La conversation {{id}} n'a pas été trouvée dans ce projet."
     project: "Le projet {{id}} n'existe pas."
-    group: "Le group {{id}} n'existe pas."
+    group: "Le groupe {{id}} n'existe pas."
     page: "La page {{id}} n'a pas été trouvée dans ce projet."
     task_list: "La liste de tâches {{id}} n'a pas été trouvée dans ce projet."
     task: "La tâche {{id}} n'a pas été trouvée dans ce projet."
   deleted:
     conversation: "La conversation <b>{{name}}</b> a été effacée"
     #####
-    task_list: "Deleted <b>{{name}}</b> task list"
+    task_list: "La liste de tâches <b>{{name}}</b> a été effacée"
     task: "La tâche <b>{{name}}</b> a été effacée"
     page: "La page <b>{{name}}</b> a été effacée"
     upload: "Le fichier <b>{{name}}</b> a été effacé"
@@ -234,7 +234,7 @@ fr:
     fields:
       name: Nom
       description: Description
-      permalink: Permalink
+      permalink: Permalien
       permalink_description: Domaine depuis le quel votre groupe est accessible
     new:
       submit: Créer
@@ -287,7 +287,7 @@ fr:
         title: "{{name}}"
         description: "Actualités récentes dans le projet {{name}}"
     fields:
-      tracks_time: Activer time-tracking
+      tracks_time: Activer la gestion du temps
       archiving: Archiver ce projet
       forever: Supprimer de façon définitive ce projet
       owner: Propriétaire
@@ -306,7 +306,7 @@ fr:
       feature3: Ajouter des archives.
       feature4: Assigner une tâche à quelqu'un et planifier des tâches.
       feature5: Commenter des tâches.
-      feature6: Faire du <i>time-tracking</i>.
+      feature6: Gérer votre temps.
       feature7: "Créer et éditer des pages à partager."
       footer: Ce projet vous appartient. Vous pouvez le transférer à vos contacts à tout moment.
       limited: "Dans un compte gratuit, vous pouvez télécharger jusqu'à 50 Mb seulement de fichiers par projet."
@@ -405,7 +405,7 @@ fr:
     column:
       new_conversation: Nouvelle conversation
       #####
-      cant_create: You don't have permission to create conversations in this project
+      cant_create: Vous n'avez pas l'autorisation de créer des conversations dans ce projet
       subscribe: Souscrivez au fil d'actualités
     conversation_with_extract:
       posted_by: Publié par
@@ -440,8 +440,8 @@ fr:
       name: "Qu'est-ce qui a besoin d'être fait?"
       due_on: "Doit être fait avant... <i>(facultatif)</i>"
       ####
-      assigned_to: Who is responsible?
-      assigned_to_nobody: Nobody
+      assigned_to: Qui est responsable ?
+      assigned_to_nobody: Personne
     assigned:
       assigned_to: "Responsable: {{user}}"
     due_on:
@@ -547,7 +547,7 @@ fr:
     column:
       new_page: Nouvelle page
       #####
-      cant_create: You don't have permission to create pages in this project
+      cant_create: Vous n'avez pas l'autorisation nécessaire pour créer des pages dans ce projet
   task_lists:
     errors:
       name:
@@ -558,7 +558,7 @@ fr:
       description: "Ce sont les tâches archivées, qui ont été soit achevées soit annulées."
     ####
     archive_box:
-      unarchive_list: This task list is archived.
+      unarchive_list: Cette liste de tâches est archivée
     actions:
       resolve_and_archive: "Resolve all tasks and archive"
       confirm_resolve_and_archive: "Are you sure you want to resolve and archive this task list?"
@@ -575,15 +575,15 @@ fr:
       finish_on: Fini le... <i>facultatif</i>
     ####
     filter:
-      due_date: "Display tasks with due date..."
-      assigned_to: "Display tasks assigned to..."
+      due_date: "Afficher les tâches ayant une date d'échéance..."
+      assigned_to: "Afficher les tâches assignées à..."
     link:
       new: Nouvelle liste de tâches
       edit: Editer
       reorder: Réordonner
       ####
-      reorder_done: Done reorder
-      unarchive: Unarchive
+      reorder_done: Mise en ordre effectuée
+      unarchive: Désarchiver
     index:
       add_link: Nouvelle liste de tâches
       empty: Aucune tâche dans cette catégorie!
@@ -602,10 +602,10 @@ fr:
       footer2: "Il est maintenant temps d'oublier les plannings sur Excel et les diagrammes de GANTT trop complexes!"
     ####
     overview_box:
-      this_list: "This task list"
-      starts_on: "Starts on:"
-      ends_on: "Ends on:"
-      undefined: "Undefined"
+      this_list: "Cette liste de tâches"
+      starts_on: "Débute le :"
+      ends_on: "Finit le :"
+      undefined: "Indéfini"
     new:
       title: Nouvelle liste de tâches
       submit: Ajouter
@@ -615,9 +615,9 @@ fr:
     column:
       new_task_list: Nouvelle liste de tâches
       #####
-      cant_create: You don't have permission to create tasks in this project
+      cant_create: Vous n'avez pas l'autorisation de créer des tâches dans ce projet
       subscribe: Souscrivez à ces tâches
-      other_views: Other views
+      other_views: Autres vues
     show:
       title: "Liste de tâches: {{name}}"
     destroy_message:
@@ -630,12 +630,12 @@ fr:
     fields:
       role: Rôle
       #####
-      observer: Observer. Read-only access to the project.
-      commenter: "Commenter. Can comment, but not create new elements."
-      participant: "Participant. Can do everything, but not invite users."
-      admin: Administrador. Can invite users to the project.
+      observer: Observateur. Accès en lecture au projet.
+      commenter: "Commentateur. Peut commenter, mais pas créer de nouveaux éléments."
+      participant: "Participant. Peut tout faire, sauf inviter des utilisateurs."
+      admin: Administrateur. Peut inviter des utilisateurs dans le projet.
     header:
-      owner: Propiétaire du projet
+      owner: Propriétaire du projet
       observer: Observateur
       commenter: Commentateur
       participant: Participant
@@ -648,15 +648,15 @@ fr:
       user_or_email: "Utilisateur introuvable. Entrez son nom d'utilisateur ou email."
       #####
     column:
-      inviting: "Inviting other users"
-      only_admins_can_invite: "Only admins can invite people to this project."
+      inviting: "Inviter d'autres utilisateurs dans le projet"
+      only_admins_can_invite: "Seuls les administrateurs peuvent inviter des utilisateurs dans ce projet."
       contact_admins:
-        one: "In this project, only {{admins}} can invite new members."
-        other: "In this project, only {{admins}} can invite new members."
-      leaving: "Leaving the project"
-      you_can_leave: "You can leave this project at any moment. If you do, you won't be able to access its data anymore, and you will not receive further notifications. Others will still be able to access the project, and no data will be lost."
-      leave_project: "Leave this project"
-      confirm_delete: Are you sure you want to leave this project?
+        one: "Dans ce projet, seul {{admins}} peut inviter de nouveaux membres."
+        other: "Dans ce projet, seuls {{admins}} peuvent inviter de nouveaux membres."
+      leaving: "Quitter le projet"
+      you_can_leave: "Vous pouvez quitter ce projet à tout moment. Dans ce cas, vous ne pourrez plus accéder à l'information qu'il contient, et vous ne recevrez plus aucune notifications. Les autres participants pourront toujours accéder au projet, et aucune donnée ne sera perdue."
+      leave_project: "Quitter le projet"
+      confirm_delete: Etes-vous sûr de vouloir quitter ce projet ?
   comments:
     comment:
       commented_on: "-"
@@ -666,8 +666,8 @@ fr:
       cannot_edit: "Comment cannot be edited after 15 minutes"
     ####
     hours:
-      add_hours: Hours
-      hours: How many hours did you put into this task?
+      add_hours: Heures
+      hours: Combien d'heures avez-vous mis à terminer cette tâche ?
     new:
       assigned_to_nobody: 'Assignée à personne'
       assigned_to: "Assigné à:"
@@ -683,8 +683,8 @@ fr:
     actions:
       confirm_delete: Êtes vous sûr de vouloir effacer ce commentaire?
       ####
-      convert_task: Convert to task
-      edit: Edit comment
+      convert_task: Convertir en tâche
+      edit: Editer commentaire
   example_projects:
     new:
       learn: Apprenez par l'exemple
@@ -702,7 +702,7 @@ fr:
     index:
       new_file: Télécharger un fichier
       #####
-      cant_create: You don't have permission to upload files to this project
+      cant_create: Vous n'avez pas l'autorisation de déposer des fichiers dans ce projet
       max_upload_size: "La taille maximale est de {{mb}} Mb"
     form:
       presence: "Vous ne pouvez pas joindre un fichier vide"
