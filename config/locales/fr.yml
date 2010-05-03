@@ -1,4 +1,4 @@
-# Translated by Diane Kurtsoglou
+# Translated by Diane Kurtsoglou and Emmanuel Netter
 # Mark missing translations by adding ##### at the end of the line
 fr:
   # if latest_announcement is less than 5 characters, it will not be displayed
@@ -142,8 +142,8 @@ fr:
       submit: Créer le compte
       no_public_signup: "Le publique n'est pas autorisé à s'inscrire sur ce système."
       you_are_logged_in: "Vous avez déjà un compte sur Teambox. Si vous voulez vous enregistrer comme autre utilisateur, fermez la session et essayez de nouveau."
-      existing_user: "Si vous avez déjà un compte, <a href='{{login_url}}'>identifiez-vous</a> ou <a href='{{forgot_url}}'>réinitialisé votre mot de passe</a>."
-      you_already_have_an_account: "Vous avez déjà un compte Teambox pour l'adresse {{email}}. <a href='{{login_link}}'>Connecté vous avec cet adresse</a> ou <a href='{{reset_password_link}}'>réinitialisé votre mot de passe</a> si vous l'avez oublié."
+      existing_user: "Si vous avez déjà un compte, <a href='{{login_url}}'>identifiez-vous</a> ou <a href='{{forgot_url}}'>réinitialisez votre mot de passe</a>."
+      you_already_have_an_account: "Vous avez déjà un compte Teambox pour l'adresse {{email}}. <a href='{{login_link}}'>Connecté vous avec cet adresse</a> ou <a href='{{reset_password_link}}'>réinitialisez votre mot de passe</a> si vous l'avez oublié."
     create:
       thanks: Votre compte a bien été créé! Merci!
       error: "Nous n'avons pas pu enregistrer ce compte, désolé! Essayez de nouveau."
@@ -177,7 +177,7 @@ fr:
       intro2: "Et maintenant? Créez un projet pour <b>collaborer</b>." # " un agenda pour <b>garder à jour vos contacts</b>:"
       projects:
         title: Projets
-        share_and_collaborate: "Partagez et collaborez avec votre équipe! Notificacions, conversations, tâches, pages et fichiers."
+        share_and_collaborate: "Partagez et collaborez avec votre équipe! Notifications, conversations, tâches, pages et fichiers."
         create_your_first_project: "Un événement, un design, un produit..? <a href='{{link}}'>Créez votre premier projet</a> dès maintenant!"
       spread:
         title: Nous voulons vous être utile!
@@ -196,7 +196,7 @@ fr:
       resend: "Pas de mail de confirmation? Cliquez <a href='{{link}}'>ici</a> pour recevoir un nouveau mail de confirmation."
       spam: "Assurez-vous que ce mail n'ait pas été classé avec le courrier indésirable."
       wrong_address: "Une erreur dans l'adresse mail? Dans ce cas, <a href='{{link}}'>annulez</a> et recommencez la création du compte avec un email valide."
-      problems: "Si le problème persistent, n'hésitez pas à nous contacter! {{support}}"
+      problems: "Si le problème persiste, n'hésitez pas à nous contacter! {{support}}"
     daily_task_reminder_email:
       daily_task_reminder: "Rappel quotidien de vos tâches"
       daily_task_reminder_from_teambox: "Ceci est un mail de rappel pour vos tâches sur Teambox"
@@ -271,7 +271,7 @@ fr:
       item1: "<b>Créez un projet</b>, donnez-lui un nom et <b> invitez vos contacts</b> à le rejoindre."
       item2: "<b>Commentez</b> ce que vous faites à tout moment sur le mur du projet."
       item3: "<b>Echangez</b> sur les décisions importantes avec les Conversations."
-      item4: "<b>Planifiez</b>ce que vous devez faire avec les Tâches."
+      item4: "<b>Planifiez</b> ce que vous devez faire avec les Tâches."
       item5: "<b>Partagez des informations</b> avec les Pages pour chaque projet."
       footer: "Les projets sont une forme de collaboration centralisée, pour que vous n'ayez plus besoin d'envoyer de mails à votre équipe."
     show:
@@ -743,7 +743,7 @@ fr:
 
   shared:
     strip:
-      archived: "Ce projet est archivé. Pour editer ou commenter sur ce projet vous devez le réactiver sur la <a href='{{link}}'>page Paramètres du projet</a>"
+      archived: "Ce projet est archivé. Pour editer ou commenter sur ce projet vous devez le réactiver sur la page <a href='{{link}}'>Paramètres du projet</a>"
     gantt_banner_primer:
       title: Il n'y a pas de listes de tâches dues à afficher sur le diagramme de Gantt
     upcoming_events_primer:
@@ -760,7 +760,7 @@ fr:
       general: Paramètres généraux
       picture: Image du projet
       deletion: Archivage/Suppression de projet
-      ownership: Ownership
+      ownership: Propriété
     project_navigation:
       overview: Resumé
       all_conversations: Mes conversations
@@ -771,7 +771,7 @@ fr:
       all_pages: Mes pages
       people: Personnes
       pages: Pages
-      time_tracking: Time Tracking
+      time_tracking: Gestion du temps
       login: Login
       signup: Créer un compte
       files: Fichiers
